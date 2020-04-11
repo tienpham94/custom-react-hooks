@@ -9,6 +9,7 @@ import green from "./green.png";
 import Toggle from "./components/Toggle";
 import Mount from "./components/Mount";
 import Inc from "./components/inc";
+import Hover from "./components/Hover";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Toggle />
         <Inc />
         <Mount />
+        <Hover />
 
         <CardGrid>
           <Card style={{ background: "var(--purp)" }}>
