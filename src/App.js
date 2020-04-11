@@ -7,6 +7,7 @@ import purp from "./purp.png";
 import black from "./black.png";
 import green from "./green.png";
 import Toggle from "./components/Toggle";
+import Inc from "./components/inc";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Container>
         <h2>Super Cool</h2>
         <Toggle />
+        <Inc />
 
         <CardGrid>
           <Card style={{ background: "var(--purp)" }}>
