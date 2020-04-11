@@ -12,6 +12,7 @@ import Inc from "./components/inc";
 import Hover from "./components/Hover";
 import {PageWrapper} from "./state/PageWrapper";
 import Nav from "./components/Nav";
+import Cookie from "./components/Cookie";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Toggle />
           <Inc />
           <Mount />
+          <Cookie />
           <Hover />
 
           <CardGrid>
