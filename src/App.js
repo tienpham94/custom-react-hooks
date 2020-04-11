@@ -10,7 +10,7 @@ import Toggle from "./components/Toggle";
 import Mount from "./components/Mount";
 import Inc from "./components/inc";
 import Hover from "./components/Hover";
-import PageWrapper from "./components/PageWrapper";
+import {PageWrapper} from "./state/PageWrapper";
 import Nav from "./components/Nav";
 
 function App() {

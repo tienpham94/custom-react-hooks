@@ -1,11 +1,11 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useContext } from "react";
 import { useToggle } from "../hooks";
 
 export const AppContext = createContext({
   isMenuOpen: false
 });
 
-const PageWrapper = ({ children }) => {
+export const PageWrapper = ({ children }) => {
   const { isToggled, toggle } = useToggle(false);
 
   return (
@@ -15,4 +15,6 @@ const PageWrapper = ({ children }) => {
   );
 };
 
-export default PageWrapper;
+export const useAppState = () => {
+  return useContext(AppContext);
+};
