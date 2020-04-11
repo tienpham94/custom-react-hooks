@@ -1,5 +1,5 @@
 import React from "react";
-import { useInc } from "../hooks/useInc";
+import { useInc } from "../hooks";
 
 const Inc = () => {
   const [volumn, { dec, inc, reset }] = useInc({

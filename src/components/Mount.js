@@ -1,5 +1,5 @@
 import React from "react";
-import { useMount, useUnmount } from "../hooks/useMount";
+import { useMount, useUnmount } from "../hooks";
 import { useToggle } from "../hooks/useToggle";
 
 export const Mount = () => {
