@@ -1,10 +1,14 @@
 import React from "react";
 import { Card } from "../Elements";
 import black from "../black.png";
-import { useHover } from "../hooks";
+import { useHover, useWindowWidth } from "../hooks";
 
 const Hover = () => {
   const [isHovered, bind] = useHover();
+
+  const width = useWindowWidth();
+
+  console.log("width", width);
 
   return (
     <div>
