@@ -8,9 +8,9 @@ const Hover = () => {
 
   const width = useWindowWidth();
 
-  const [{ ref }, bounds] = useMeasure();
+  // const [{ ref }, bounds] = useMeasure();
 
-  console.log("bounds", bounds);
+  // console.log("bounds", bounds);
 
   if (width < 400) return null;
 
