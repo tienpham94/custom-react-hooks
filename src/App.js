@@ -14,6 +14,7 @@ import {PageWrapper} from "./state/PageWrapper";
 import Nav from "./components/Nav";
 import Cookie from "./components/Cookie";
 import Script from "./components/Script";
+import Local from "./components/Local";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Inc />
           <Mount />
           <Cookie />
+          <Local />
           <Hover />
           <Script />
 
